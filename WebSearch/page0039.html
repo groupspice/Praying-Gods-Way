@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>Praying_Sampler</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=38";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=39",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=38";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=39" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> Leader’s Notesto your  rst meeting and point it out to the group so that each person can note when and where the group will meet, who will bring snacks, any im- portant upcoming events (birthdays, anniversaries), etc.GrowingHave someone read Bible passages aloud. It’s a good idea to ask ahead of time, because not everyone is comfortable reading aloud in public.4. Jesus was a man of action, whose ministry was a whirlwind of teaching, healing, casting out demons, and proclaiming the kingdom of God.5. Jesus had just had a successful ministry in Capernaum healing many sick and demon-possessed people. Early the next day, Jesus went out by himself for a time of prayer. By the time the disciples found him, he was ready to face the day. We must follow Christ’s example by making time for personal prayer. Those who help and serve on Sunday especially need to set aside time with God to restore their strength. Our ability to serve will be hindered if we neglect times of spiritual replenishment. During his ministry on earth, Jesus was in constant prayer with the Father. Mark recorded three of these times (see Mark 6:46 and 14:32–42).9. Jesus prayed at key transitions and crisis points in his life. For example, here he prayed as the Holy Spirit descended on him after his baptism. He also prayed in the Garden of Gethsemane (Luke 22:41–44) and even on the cross (Luke 23:46).It’s important to examine what speci c things Jesus prayed about so we can do the same. First, Jesus prayed before making decisions such as in the case of choosing his twelve disciples. This should serve an example to us that we, like Jesus, need the strength and wisdom of the Father in our lives.In Luke 22:41–44, Jesus prayed before going to the cross. In the garden Jesus’s prayer was agonizing. Yet, his prayer brought clarity to his situation. In Luke 23:46, Jesus gave up his spirit and died.DevelopingThis section enables you to help the group see the importance of devel- oping our abilities for service to God.13. For many, spiritual partners will be a new idea. We highly encourage you to try pairs for this study. It’s so hard to start a spiritual practice like prayer or consistent Bible reading with no support. A friend makes a huge di erence. As leader, you may want to prayerfully decide who would be a good match with whom. Remind people that this partnership isn’t forever; it’s just for a few weeks. Be sure to have extra copies of the Personal Health Plan available88 </noscript> 
+ </body>
+</html>
